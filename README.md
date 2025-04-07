@@ -19,6 +19,7 @@ src/
       Lifecycle     # 生命周期示例
       EventHandling # 事件处理示例
       StateManagement # 状态管理示例
+      ImmerExample  # Immer状态管理示例
   pages/             # 页面组件
     Home            # 首页，包含导航和说明
 ```
@@ -39,6 +40,7 @@ src/
    - 组件生命周期
    - 事件处理机制
    - 状态管理和数据流
+   - Immer不可变状态管理
 
 ## 如何使用
 
