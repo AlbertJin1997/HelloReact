@@ -7,6 +7,15 @@
 ```
 src/
   components/         # React组件示例
+    ui/              # UI组件示例
+      BasicForm      # 基础表单示例
+      BasicTable     # 基础表格示例
+      Modal          # Modal对话框示例
+      Popconfirm     # 气泡确认框示例
+      Drawer         # 抽屉组件示例
+      Image          # 图片组件示例
+      Loading        # 加载组件示例
+      Button         # 按钮组件示例
     basics/           # 基础概念
       ClassComponent  # 类组件示例
       FunctionComponent  # 函数组件示例
@@ -26,17 +35,27 @@ src/
 
 ## 学习路径
 
-1. **基础概念**
+1. **UI示例**
+   - 基础表单的使用和布局
+   - 基础表格的功能和用法
+   - Modal对话框的使用场景
+   - Popconfirm气泡确认框的应用
+   - Drawer抽屉组件的实现
+   - 图片组件的基本功能
+   - 加载组件的使用方法
+   - 按钮组件的样式和用法
+
+2. **基础概念**
    - 组件的基本写法（类组件和函数组件）
    - Props的使用和数据传递
    - State的概念和使用
 
-2. **React Hooks**
+3. **React Hooks**
    - useState的使用
    - useEffect的生命周期管理
    - useContext的上下文管理
 
-3. **高级特性**
+4. **高级特性**
    - 组件生命周期
    - 事件处理机制
    - 状态管理和数据流
