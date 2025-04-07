@@ -71,7 +71,17 @@ const BasicTable = () => {
         </Space>
       ),
     },
-    { title: '头像', dataIndex: 'avatar', key: 'avatar', render: (_, record) => <Image src={record.avatar} alt={record.name} width={60} height={60} /> },
+    {
+      title: '头像',
+      dataIndex: 'avatar',
+      key: 'avatar',
+      render: (_, record) =>
+        <Image src={record.avatar}
+          alt={record.name}
+          width={60}
+          height={60}
+        />
+    },
   ];
 
   return (
