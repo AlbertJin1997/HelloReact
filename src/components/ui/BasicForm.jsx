@@ -5,8 +5,10 @@ const { Title, Paragraph } = Typography;
 const { Option } = Select;
 
 // 基础表单示例组件
-const BasicForm = () => {
-  const [form] = Form.useForm();
+const BasicForm = ({ form }) => {
+  if (!form) {
+    form = Form.useForm()[0];
+  }
 
   const onFinish = (values) => {
     console.log('表单提交的值:', values);

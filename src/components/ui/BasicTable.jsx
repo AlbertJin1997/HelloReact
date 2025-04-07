@@ -1,5 +1,5 @@
 import React from 'react';
-import { Table, Card, Typography, Tag, Space } from 'antd';
+import { Table, Card, Typography, Tag, Space, Image } from 'antd';
 
 const { Title, Paragraph } = Typography;
 
@@ -12,6 +12,7 @@ const BasicTable = () => {
       age: 32,
       address: '北京市朝阳区',
       tags: ['开发', '前端'],
+      avatar: 'https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp'
     },
     {
       key: '2',
@@ -19,6 +20,7 @@ const BasicTable = () => {
       age: 28,
       address: '上海市浦东新区',
       tags: ['设计', 'UI'],
+      avatar: 'https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp'
     },
     {
       key: '3',
@@ -26,6 +28,7 @@ const BasicTable = () => {
       age: 35,
       address: '广州市天河区',
       tags: ['产品', '运营'],
+      avatar: 'https://gw.alipayobjects.com/zos/antfincdn/cV16ZqzMjW/photo-1473091540282-9b846e7965e3.webp'
     },
   ];
 
@@ -68,6 +71,7 @@ const BasicTable = () => {
         </Space>
       ),
     },
+    { title: '头像', dataIndex: 'avatar', key: 'avatar', render: (_, record) => <Image src={record.avatar} alt={record.name} width={60} height={60} /> },
   ];
 
   return (

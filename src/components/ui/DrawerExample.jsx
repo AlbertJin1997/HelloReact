@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Card, Button, Drawer, Form, Input, Select, Space, Typography, Radio } from 'antd';
+import BasicForm from './BasicForm';
 
 const { Title, Paragraph } = Typography;
 const { Option } = Select;
@@ -134,31 +135,7 @@ const DrawerExample = () => {
               </Space>
             }
           >
-            <Form form={form} layout="vertical">
-              <Form.Item
-                name="name"
-                label="姓名"
-                rules={[{ required: true, message: '请输入姓名' }]}
-              >
-                <Input placeholder="请输入姓名" />
-              </Form.Item>
-              <Form.Item
-                name="email"
-                label="邮箱"
-                rules={[
-                  { required: true, message: '请输入邮箱' },
-                  { type: 'email', message: '请输入有效的邮箱地址' }
-                ]}
-              >
-                <Input placeholder="请输入邮箱" />
-              </Form.Item>
-              <Form.Item
-                name="description"
-                label="描述"
-              >
-                <Input.TextArea rows={4} placeholder="请输入描述" />
-              </Form.Item>
-            </Form>
+            <BasicForm form={form} />
           </Drawer>
         </Card>
 
