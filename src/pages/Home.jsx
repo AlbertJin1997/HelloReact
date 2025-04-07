@@ -7,6 +7,19 @@ const { Title, Paragraph } = Typography;
 // 学习路径配置
 const learningPath = [
   {
+    title: 'UI示例',
+    items: [
+      { title: '基础表单示例', path: '/ui/basic-form', description: '展示Ant Design表单组件的基本用法和布局' },
+      { title: '基础表格示例', path: '/ui/basic-table', description: '展示Ant Design表格组件的基本用法和功能' },
+      { title: 'Modal对话框示例', path: '/ui/modal', description: '展示Modal对话框的基本用法和常见场景' },
+      { title: 'Popconfirm气泡确认框示例', path: '/ui/popconfirm', description: '展示Popconfirm气泡确认框的使用方法' },
+      { title: 'Drawer抽屉示例', path: '/ui/drawer', description: '展示Drawer抽屉组件的多种使用场景' },
+      { title: '图片示例', path: '/ui/image', description: '展示图片组件的基本用法和功能' },
+      { title: '加载组件示例', path: '/ui/loading', description: '展示加载组件的使用方法' },
+      { title: '按钮组件示例', path: '/ui/button', description: '展示按钮组件的基本用法和样式' },
+    ],
+  },
+  {
     title: '基础概念',
     items: [
       { title: '类组件示例', path: '/basics/class-component', description: '学习React类组件的基本用法和特性' },

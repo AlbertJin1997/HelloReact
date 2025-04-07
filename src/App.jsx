@@ -5,12 +5,28 @@ import {
   BookOutlined,
   ExperimentOutlined,
   ToolOutlined,
+  AppstoreOutlined,
 } from '@ant-design/icons';
 
 const { Header, Content, Sider } = Layout;
 
 // 导航菜单配置
 const menuItems = [
+  {
+    key: 'ui',
+    icon: <AppstoreOutlined />,
+    label: 'UI示例',
+    children: [
+      { key: 'ui/basic-form', label: '基础表单' },
+      { key: 'ui/basic-table', label: '基础表格' },
+      { key: 'ui/modal', label: 'Modal对话框' },
+      { key: 'ui/popconfirm', label: 'Popconfirm气泡确认框' },
+      { key: 'ui/drawer', label: 'Drawer抽屉' },
+      { key: 'ui/image', label: '图片组件' },
+      { key: 'ui/loading', label: '加载组件' },
+      { key: 'ui/button', label: '按钮组件' },
+    ],
+  },
   {
     key: 'basics',
     icon: <BookOutlined />,

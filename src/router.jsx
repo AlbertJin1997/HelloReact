@@ -3,6 +3,7 @@ import App from './App';
 
 // 页面组件
 import Home from './pages/Home';
+import ErrorBoundary from './components/ErrorBoundary';
 
 // 基础概念示例
 import ClassComponent from './components/basics/ClassComponent';
@@ -20,11 +21,22 @@ import EventHandlingExample from './components/advanced/EventHandling';
 import StateManagementExample from './components/advanced/StateManagement';
 import ImmerExample from './components/advanced/ImmerExample';
 
+// UI示例
+import BasicForm from './components/ui/BasicForm';
+import BasicTable from './components/ui/BasicTable';
+import BasicModal from './components/ui/BasicModal';
+import PopconfirmExample from './components/ui/PopconfirmExample';
+import DrawerExample from './components/ui/DrawerExample';
+import BasicImage from './components/ui/BasicImage';
+import BasicLoading from './components/ui/BasicLoading';
+import BasicButton from './components/ui/BasicButton';
+
 // 路由配置
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App />,
+    errorElement: <ErrorBoundary />,
     children: [
       {
         index: true,
@@ -82,6 +94,43 @@ const router = createBrowserRouter([
           {
             path: 'immer-example',
             element: <ImmerExample />,
+          },
+        ],
+      },
+      {
+        path: 'ui',
+        children: [
+          {
+            path: 'basic-form',
+            element: <BasicForm />,
+          },
+          {
+            path: 'basic-table',
+            element: <BasicTable />,
+          },
+          {
+            path: 'modal',
+            element: <BasicModal />,
+          },
+          {
+            path: 'popconfirm',
+            element: <PopconfirmExample />,
+          },
+          {
+            path: 'drawer',
+            element: <DrawerExample />,
+          },
+          {
+            path: 'image',
+            element: <BasicImage />,
+          },
+          {
+            path: 'loading',
+            element: <BasicLoading />,
+          },
+          {
+            path: 'button',
+            element: <BasicButton />,
           },
         ],
       },
