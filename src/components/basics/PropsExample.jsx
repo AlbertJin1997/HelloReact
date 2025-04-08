@@ -30,6 +30,7 @@ const UserCard = ({ name, age, isOnline, onStatusChange }) => {
  * 演示如何使用children prop
  */
 const MessageBox = ({ children, type = 'info' }) => {
+  // children是一个React节点，可以是文本、组件、数组等
   const colors = {
     info: '#1890ff',
     success: '#52c41a',
@@ -95,9 +96,33 @@ const PropsExample = () => {
         </Card>
 
         <Card title="Children Props示例">
-          <MessageBox>这是一个普通消息</MessageBox>
-          <MessageBox type="success">这是一个成功消息</MessageBox>
-          <MessageBox type="warning">这是一个警告消息</MessageBox>
+          <MessageBox>
+            <Space>
+              <span>普通消息与按钮的组合：</span>
+              <Button size="small">点击查看</Button>
+            </Space>
+          </MessageBox>
+          <MessageBox type="success">
+            <Space direction="vertical">
+              <div>成功消息与交互组件：</div>
+              <Space>
+                <Switch size="small" defaultChecked />
+                <span>开启通知</span>
+              </Space>
+            </Space>
+          </MessageBox>
+          <MessageBox type="warning">
+            <Space>
+              <Input.Search
+                placeholder="搜索警告信息"
+                size="small"
+                style={{ width: 200 }}
+              />
+              <Button type="primary" size="small" danger>
+                清除警告
+              </Button>
+            </Space>
+          </MessageBox>
         </Card>
 
         <Card title="代码说明">

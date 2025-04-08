@@ -70,6 +70,7 @@ const BasicForm = ({ form }) => {
 
           <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
             <Space>
+              {/* htmlType="submit" will trigger onFinish event */}
               <Button type="primary" htmlType="submit">
                 提交
               </Button>
