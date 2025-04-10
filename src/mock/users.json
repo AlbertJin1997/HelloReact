@@ -1,0 +1,28 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "张三",
+      "email": "zhangsan@example.com",
+      "role": "管理员",
+      "status": "active",
+      "createTime": "2024-01-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "email": "lisi@example.com",
+      "role": "普通用户",
+      "status": "active",
+      "createTime": "2024-01-02T09:30:00Z"
+    },
+    {
+      "id": 3,
+      "name": "王五",
+      "email": "wangwu@example.com",
+      "role": "普通用户",
+      "status": "inactive",
+      "createTime": "2024-01-03T10:15:00Z"
+    }
+  ]
+}

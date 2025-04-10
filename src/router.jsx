@@ -30,6 +30,7 @@ import DrawerExample from './components/ui/DrawerExample';
 import BasicImage from './components/ui/BasicImage';
 import BasicLoading from './components/ui/BasicLoading';
 import BasicButton from './components/ui/BasicButton';
+import MockRequestExample from './components/ui/MockRequestExample';
 
 // 路由配置
 const router = createBrowserRouter([
@@ -131,6 +132,10 @@ const router = createBrowserRouter([
           {
             path: 'button',
             element: <BasicButton />,
+          },
+          {
+            path: 'mock-request',
+            element: <MockRequestExample />,
           },
         ],
       },

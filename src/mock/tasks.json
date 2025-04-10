@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "projectId": 1,
+      "title": "完成React基础组件开发",
+      "description": "实现Button、Form、Table等基础UI组件",
+      "status": "进行中",
+      "priority": "高",
+      "assignee": 2,
+      "creator": 1,
+      "createTime": "2024-01-02T08:00:00Z",
+      "deadline": "2024-01-15T23:59:59Z"
+    },
+    {
+      "id": 2,
+      "projectId": 1,
+      "title": "编写组件文档",
+      "description": "为已完成的组件编写使用文档和示例代码",
+      "status": "待处理",
+      "priority": "中",
+      "assignee": 3,
+      "creator": 1,
+      "createTime": "2024-01-03T10:30:00Z",
+      "deadline": "2024-01-20T23:59:59Z"
+    },
+    {
+      "id": 3,
+      "projectId": 2,
+      "title": "分析Vue2项目依赖",
+      "description": "分析现有Vue2项目使用的依赖包，确定升级方案",
+      "status": "已完成",
+      "priority": "高",
+      "assignee": 2,
+      "creator": 2,
+      "createTime": "2024-02-01T09:00:00Z",
+      "deadline": "2024-02-05T23:59:59Z"
+    }
+  ]
+}

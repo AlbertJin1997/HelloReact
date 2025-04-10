@@ -1,0 +1,37 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "React学习项目",
+      "description": "一个用于学习React基础知识的示例项目",
+      "status": "进行中",
+      "priority": "高",
+      "startDate": "2024-01-01T00:00:00Z",
+      "endDate": "2024-03-31T23:59:59Z",
+      "leader": 1,
+      "members": [ 1, 2, 3 ]
+    },
+    {
+      "id": 2,
+      "name": "Vue项目重构",
+      "description": "将旧版Vue2项目升级到Vue3",
+      "status": "计划中",
+      "priority": "中",
+      "startDate": "2024-02-01T00:00:00Z",
+      "endDate": "2024-04-30T23:59:59Z",
+      "leader": 2,
+      "members": [ 2, 3 ]
+    },
+    {
+      "id": 3,
+      "name": "后端API开发",
+      "description": "开发新版本REST API接口",
+      "status": "已完成",
+      "priority": "高",
+      "startDate": "2023-12-01T00:00:00Z",
+      "endDate": "2024-01-15T23:59:59Z",
+      "leader": 1,
+      "members": [ 1, 3 ]
+    }
+  ]
+}

@@ -17,6 +17,7 @@ const learningPath = [
       { title: '图片示例', path: '/ui/image', description: '展示图片组件的基本用法和功能' },
       { title: '加载组件示例', path: '/ui/loading', description: '展示加载组件的使用方法' },
       { title: '按钮组件示例', path: '/ui/button', description: '展示按钮组件的基本用法和样式' },
+      { title: '模拟网络请求示例', path: '/ui/mock-request', description: '展示如何使用Mock数据模拟API请求' },
       { title: '错误页面示例', path: '/ui/error123', description: '展示错误页面的设计和实现' },
     ],
   },
