@@ -13,17 +13,17 @@ const { Title, Paragraph } = Typography;
  * 5. 自定义事件处理
  */
 const EventHandlingExample = () => {
-  const [clickCount, setClickCount] = useState(0);
+  const [clickCount, setClickCount] = useState(1);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [inputValue, setInputValue] = useState('');
   const buttonRef = useRef(null);
 
   // 基本点击事件处理
   const handleClick = (e) => {
-    setClickCount(prev => prev + 1);
+    setClickCount(clickCount + 1);
     // 使用key属性确保每次显示不同的消息实例
     message.info({
-      content: `按钮被点击了 ${clickCount + 1} 次`,
+      content: `按钮被点击了 ${clickCount} 次`,
       duration: 2,
       style: { marginTop: '50px' },
       key: Date.now()
@@ -65,16 +65,7 @@ const EventHandlingExample = () => {
   const handleChildClick = (e) => {
     e.stopPropagation(); // 阻止事件冒泡
     message.info({
-      content: '子元素被点击（事件不会冒泡）',
-      duration: 2,
-      style: { marginTop: '50px' }
-    });
-  };
-
-  // 键盘事件处理
-  const handleKeyPress = (e) => {
-    message.info({
-      content: `按下的键：${e.key}`,
+      content: '子元素被点击 父元素的点击事件被阻止',
       duration: 2,
       style: { marginTop: '50px' }
     });
@@ -118,7 +109,7 @@ const EventHandlingExample = () => {
               backgroundColor: '#f5f5f5',
               border: '1px solid #d9d9d9',
               borderRadius: '4px',
-              cursor: 'default'
+              cursor: 'pointer',
             }}
             onMouseMove={handleMouseMove}
           >
@@ -136,7 +127,6 @@ const EventHandlingExample = () => {
                 value={inputValue}
                 onChange={(e) => setInputValue(e.target.value)}
                 placeholder="输入一些内容"
-                onKeyPress={handleKeyPress}
                 style={{ width: '200px' }}
               />
               <Button htmlType="submit" type="primary">
@@ -167,7 +157,7 @@ const EventHandlingExample = () => {
                 textAlign: 'center'
               }}
             >
-              子元素 (点击我，事件不会冒泡)
+              子元素 (点击我，父元素的点击事件被阻止)
             </div>
           </div>
         </Card>
