@@ -14,6 +14,7 @@ const BasicForm = ({ form }) => {
 
   const onFinish = (values) => {
     console.log('表单提交的值:', values);
+    console.log('年龄', values.age)
   };
 
   return (
@@ -135,7 +136,6 @@ const BasicForm = ({ form }) => {
             label="简历上传"
             name="resume"
             rules={[{ required: true, message: '请上传PDF格式的简历！' }]}
-            valuePropName="fileList"
           >
             <Upload
               action='upload链接'
