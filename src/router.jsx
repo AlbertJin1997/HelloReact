@@ -14,6 +14,7 @@ import PropsExample from './components/basics/PropsExample';
 import UseStateExample from './components/hooks/UseState';
 import UseEffectExample from './components/hooks/UseEffect';
 import UseContextExample from './components/hooks/UseContext';
+import UseRefExample from './components/hooks/UseRef';
 
 // 高级特性示例
 import LifecycleExample from './components/advanced/Lifecycle';
@@ -77,6 +78,10 @@ const router = createBrowserRouter([
             path: 'use-context',
             element: <UseContextExample />,
           },
+          {
+            path: 'use-ref',
+            element: <UseRefExample />,
+          }
         ],
       },
       {

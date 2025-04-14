@@ -49,6 +49,7 @@ const menuItems = [
       { key: 'hooks/use-state', label: 'useState示例' },
       { key: 'hooks/use-effect', label: 'useEffect示例' },
       { key: 'hooks/use-context', label: 'useContext示例' },
+      { key: 'hooks/use-ref', label: 'useRef示例' },
     ],
   },
   {

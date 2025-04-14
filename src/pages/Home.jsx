@@ -37,6 +37,7 @@ const learningPath = [
       { title: 'useState示例', path: '/hooks/use-state', description: '学习状态管理的基本用法' },
       { title: 'useEffect示例', path: '/hooks/use-effect', description: '理解副作用处理和生命周期管理' },
       { title: 'useContext示例', path: '/hooks/use-context', description: '掌握跨组件状态共享' },
+      { title: 'useRef示例', path: '/hooks/use-ref', description: '掌握DOM元素引用和状态共享' },
     ],
   },
   {
