@@ -2,7 +2,7 @@
   "projects": [
     {
       "id": 1,
-      "name": "React学习项目",
+      "name": "React学习项目111111111111111111",
       "description": "一个用于学习React基础知识的示例项目",
       "status": "进行中",
       "priority": "高",
@@ -32,6 +32,105 @@
       "endDate": "2024-01-15T23:59:59Z",
       "leader": 1,
       "members": [ 1, 3 ]
+    },
+    {
+      "id": 4,
+      "name": "微服务架构升级",
+      "description": "将单体应用拆分为微服务架构",
+      "status": "进行中",
+      "priority": "高",
+      "startDate": "2024-01-15T00:00:00Z",
+      "endDate": "2024-06-30T23:59:59Z",
+      "leader": 3,
+      "members": [ 1, 2, 3, 4 ]
+    },
+    {
+      "id": 5,
+      "name": "UI设计系统",
+      "description": "建立统一的设计系统和组件库",
+      "status": "计划中",
+      "priority": "中",
+      "startDate": "2024-03-01T00:00:00Z",
+      "endDate": "2024-05-31T23:59:59Z",
+      "leader": 2,
+      "members": [ 2, 4 ]
+    },
+    {
+      "id": 6,
+      "name": "性能优化项目",
+      "description": "优化应用性能和加载速度",
+      "status": "已完成",
+      "priority": "高",
+      "startDate": "2023-11-01T00:00:00Z",
+      "endDate": "2023-12-31T23:59:59Z",
+      "leader": 1,
+      "members": [ 1, 3 ]
+    },
+    {
+      "id": 7,
+      "name": "移动端适配",
+      "description": "优化移动端用户体验",
+      "status": "已取消",
+      "priority": "低",
+      "startDate": "2024-01-10T00:00:00Z",
+      "endDate": "2024-02-28T23:59:59Z",
+      "leader": 4,
+      "members": [ 4 ]
+    },
+    {
+      "id": 8,
+      "name": "数据分析平台",
+      "description": "构建实时数据分析和可视化平台",
+      "status": "进行中",
+      "priority": "中",
+      "startDate": "2024-02-15T00:00:00Z",
+      "endDate": "2024-07-31T23:59:59Z",
+      "leader": 3,
+      "members": [ 2, 3, 4 ]
+    },
+    {
+      "id": 9,
+      "name": "安全审计",
+      "description": "进行全面的安全审计和漏洞修复",
+      "status": "计划中",
+      "priority": "高",
+      "startDate": "2024-04-01T00:00:00Z",
+      "endDate": "2024-05-15T23:59:59Z",
+      "leader": 1,
+      "members": [ 1, 3 ]
+    },
+    {
+      "id": 10,
+      "name": "自动化测试",
+      "description": "搭建自动化测试框架",
+      "status": "已完成",
+      "priority": "中",
+      "startDate": "2023-12-15T00:00:00Z",
+      "endDate": "2024-02-15T23:59:59Z",
+      "leader": 2,
+      "members": [ 2, 4 ]
+    },
+    {
+      "id": 11,
+      "name": "DevOps流程优化",
+      "description": "优化开发和部署流程",
+      "status": "进行中",
+      "priority": "高",
+      "startDate": "2024-01-20T00:00:00Z",
+      "endDate": "2024-04-20T23:59:59Z",
+      "leader": 3,
+      "members": [ 1, 3 ]
+    },
+    {
+      "id": 12,
+      "name": "国际化支持",
+      "description": "添加多语言支持",
+      "status": "已取消",
+      "priority": "低",
+      "startDate": "2024-02-01T00:00:00Z",
+      "endDate": "2024-03-31T23:59:59Z",
+      "leader": 4,
+      "members": [ 2, 4 ]
     }
   ]
 }

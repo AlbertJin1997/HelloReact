@@ -35,6 +35,10 @@ import BasicButton from './components/ui/BasicButton';
 import MockRequestExample from './components/ui/MockRequestExample';
 import WeatherExample from './components/ui/WeatherExample';
 
+// Ant Design Pro
+import ProFormExample from './components/antd-pro/ProFormExample';
+import ProTableExample from './components/antd-pro/ProTableExample';
+
 // 路由配置
 const router = createBrowserRouter([
   {
@@ -154,6 +158,19 @@ const router = createBrowserRouter([
           },
         ],
       },
+      {
+        path: 'antd-pro',
+        children: [
+          {
+            path: 'table',
+            element: <ProTableExample />,
+          },
+          {
+            path: 'form',
+            element: <ProFormExample />
+          }
+        ],
+      }
     ],
   },
 ]);

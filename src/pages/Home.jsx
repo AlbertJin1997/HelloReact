@@ -49,6 +49,13 @@ const learningPath = [
       { title: 'Immer示例', path: '/advanced/immer-example', description: '学习使用Immer简化不可变状态更新' },
     ],
   },
+  {
+    title: 'AntDesignPro',
+    items: [
+      { title: 'Pro Form', path: '/antd-pro/form', description: 'AntDesignPro Form组件' },
+      { title: 'Pro Table', path: '/antd-pro/table', description: 'AntDesignPro Table组件' },
+    ],
+  }
 ];
 
 const Home = () => {

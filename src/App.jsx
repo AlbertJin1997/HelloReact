@@ -7,6 +7,7 @@ import {
   ToolOutlined,
   AppstoreOutlined,
 } from '@ant-design/icons';
+import { icons } from 'antd/es/image/PreviewGroup';
 
 const { Header, Content, Sider } = Layout;
 
@@ -63,6 +64,15 @@ const menuItems = [
       { key: 'advanced/immer-example', label: 'Immer示例' },
     ],
   },
+  {
+    key: 'antd-pro',
+    icon: <ToolOutlined />,
+    label: 'pro组件',
+    children: [
+      { key: 'antd-pro/form', label: 'form示例' },
+      { key: 'antd-pro/table', label: 'table示例' }
+    ]
+  }
 ];
 
 const App = () => {
