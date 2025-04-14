@@ -135,6 +135,7 @@ const BasicForm = ({ form }) => {
             label="简历上传"
             name="resume"
             rules={[{ required: true, message: '请上传PDF格式的简历！' }]}
+            valuePropName="fileList"
           >
             <Upload
               action='upload链接'
