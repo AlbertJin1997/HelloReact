@@ -27,6 +27,7 @@ import BasicTable from './components/ui/BasicTable';
 import BasicModal from './components/ui/BasicModal';
 import PopconfirmExample from './components/ui/PopconfirmExample';
 import DrawerExample from './components/ui/DrawerExample';
+import ChartExample from './components/ui/ChartExample';
 import BasicImage from './components/ui/BasicImage';
 import BasicLoading from './components/ui/BasicLoading';
 import BasicButton from './components/ui/BasicButton';
@@ -121,6 +122,10 @@ const router = createBrowserRouter([
           {
             path: 'drawer',
             element: <DrawerExample />,
+          },
+          {
+            path: 'chart',
+            element: <ChartExample />,
           },
           {
             path: 'image',

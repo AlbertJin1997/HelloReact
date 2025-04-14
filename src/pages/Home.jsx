@@ -14,6 +14,7 @@ const learningPath = [
       { title: 'Modal对话框示例', path: '/ui/modal', description: '展示Modal对话框的基本用法和常见场景' },
       { title: 'Popconfirm气泡确认框示例', path: '/ui/popconfirm', description: '展示Popconfirm气泡确认框的使用方法' },
       { title: 'Drawer抽屉示例', path: '/ui/drawer', description: '展示Drawer抽屉组件的多种使用场景' },
+      { title: '图表示例', path: '/ui/chart', description: '展示使用ECharts实现的常见图表类型' },
       { title: '图片示例', path: '/ui/image', description: '展示图片组件的基本用法和功能' },
       { title: '加载组件示例', path: '/ui/loading', description: '展示加载组件的使用方法' },
       { title: '按钮组件示例', path: '/ui/button', description: '展示按钮组件的基本用法和样式' },

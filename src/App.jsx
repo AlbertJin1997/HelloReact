@@ -23,6 +23,7 @@ const menuItems = [
       { key: 'ui/popconfirm', label: 'Popconfirm气泡确认框' },
       { key: 'ui/drawer', label: 'Drawer抽屉' },
       { key: 'ui/image', label: '图片组件' },
+      { key: 'ui/chart', label: 'echarts组件' },
       { key: 'ui/loading', label: '加载组件' },
       { key: 'ui/button', label: '按钮组件' },
       { key: 'ui/mock-request', label: '模拟网络请求' },
