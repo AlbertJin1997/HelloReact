@@ -31,6 +31,7 @@ import BasicImage from './components/ui/BasicImage';
 import BasicLoading from './components/ui/BasicLoading';
 import BasicButton from './components/ui/BasicButton';
 import MockRequestExample from './components/ui/MockRequestExample';
+import WeatherExample from './components/ui/WeatherExample';
 
 // 路由配置
 const router = createBrowserRouter([
@@ -136,6 +137,10 @@ const router = createBrowserRouter([
           {
             path: 'mock-request',
             element: <MockRequestExample />,
+          },
+          {
+            path: 'weather',
+            element: <WeatherExample />,
           },
         ],
       },
