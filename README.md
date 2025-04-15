@@ -16,6 +16,10 @@ src/
       Image          # 图片组件示例
       Loading        # 加载组件示例
       Button         # 按钮组件示例
+      Charts/        # 图表组件示例
+        LineChart    # 折线图示例
+        BarChart     # 柱状图示例
+        PieChart     # 饼图示例
     basics/           # 基础概念
       ClassComponent  # 类组件示例
       FunctionComponent  # 函数组件示例
@@ -29,6 +33,10 @@ src/
       EventHandling # 事件处理示例
       StateManagement # 状态管理示例
       ImmerExample  # Immer状态管理示例
+      NetworkDemo   # 网络请求示例
+    antd-pro/        # Ant Design Pro组件示例
+      ProTableDemo  # ProTable示例
+      ProFormDemo   # ProForm示例
   pages/             # 页面组件
     Home            # 首页，包含导航和说明
 ```
@@ -44,6 +52,8 @@ src/
    - 图片组件的基本功能
    - 加载组件的使用方法
    - 按钮组件的样式和用法
+   - 图表组件（折线图、柱状图、饼图）的实现和数据展示
+   - Ant Design Pro组件（ProTable、ProForm）的高级用法
 
 2. **基础概念**
    - 组件的基本写法（类组件和函数组件）
@@ -51,15 +61,17 @@ src/
    - State的概念和使用
 
 3. **React Hooks**
-   - useState的使用
+   - useState的使用（状态管理示例：计数器、表单、待办事项）
    - useEffect的生命周期管理
-   - useContext的上下文管理
+   - useContext的上下文管理（主题切换、用户信息共享）
+   - useRef的引用管理（DOM引用、可变值存储、定时器管理）
 
 4. **高级特性**
    - 组件生命周期
    - 事件处理机制
    - 状态管理和数据流
    - Immer不可变状态管理
+   - 网络请求和API调用（天气API示例）
 
 ## 如何使用
 

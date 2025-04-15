@@ -7,7 +7,6 @@ import {
   ToolOutlined,
   AppstoreOutlined,
 } from '@ant-design/icons';
-import { icons } from 'antd/es/image/PreviewGroup';
 
 const { Header, Content, Sider } = Layout;
 
