@@ -44,6 +44,7 @@ import WeatherExample from './components/ui/WeatherExample';
 // 展示了Pro组件库中的高级表单和表格组件
 import ProFormExample from './components/antd-pro/ProFormExample';
 import ProTableExample from './components/antd-pro/ProTableExample';
+import LessDemo from './components/ui/LessDemo';
 
 // 路由配置
 const router = createBrowserRouter([
@@ -162,6 +163,10 @@ const router = createBrowserRouter([
             path: 'weather', // 天气API示例
             element: <WeatherExample />,
           },
+          {
+            path: 'less-demo', // LESS样式演示
+            element: <LessDemo />
+          }
         ],
       },
       {

@@ -1,0 +1,36 @@
+@primary-color: #1890ff;
+@box-bg: #f0f5ff;
+@btn-radius: 6px;
+
+.less-demo-container {
+  padding: 24px;
+
+  .less-demo-box {
+    background: @box-bg;
+    padding: 24px;
+    border-radius: 12px;
+    margin-top: 16px;
+
+    .less-demo-title {
+      color: @primary-color;
+      font-size: 18px;
+      margin-bottom: 12px;
+      font-weight: bold;
+    }
+
+    .less-demo-btn {
+      background: @primary-color;
+      color: #fff;
+      border: none;
+      border-radius: @btn-radius + 12px;
+      padding: 8px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background 0.2s;
+
+      &:hover {
+        background: darken(@primary-color, 10%);
+      }
+    }
+  }
+}

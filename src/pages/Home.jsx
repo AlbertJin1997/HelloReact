@@ -21,6 +21,7 @@ const learningPath = [
       { title: '模拟网络请求示例', path: '/ui/mock-request', description: '展示如何使用Mock数据模拟API请求' },
       { title: '天气数据示例', path: '/ui/weather', description: '展示如何调用实际的天气API获取数据' },
       { title: '错误页面示例', path: '/ui/error123', description: '展示错误页面的设计和实现' },
+      { title: 'LESS样式演示', path: '/ui/less-demo', description: '展示如何使用LESS编写样式' },
     ],
   },
   {

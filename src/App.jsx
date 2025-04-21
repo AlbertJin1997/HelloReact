@@ -27,6 +27,7 @@ const menuItems = [
       { key: 'ui/loading', label: '加载组件' },
       { key: 'ui/button', label: '按钮组件' },
       { key: 'ui/mock-request', label: '模拟网络请求' },
+      { key: 'ui/less-demo', label: 'LESS样式演示' },
       { key: 'ui/error123', label: 'ErrorBoundary' }, //随便新增一个不存在的path，测试一下404页面是否正确跳转
       { key: 'ui/weather', label: 'axios请求天气' },
     ],
