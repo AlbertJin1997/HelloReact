@@ -27,15 +27,17 @@ const WeatherExample = () => {
 
     try {
       // 使用高德天气API
-      const response = await request({
+      const response = await request.getApi({
         url: 'https://restapi.amap.com/v3/weather/weatherInfo',
-        method: 'GET',
         params: {
           key: 'a1396a49f40227848301307bb96a1946', // 请替换为您的高德API Key
           city: selectedCity, // 选中的城市编码
           extensions: 'base', // 返回实况天气
           output: 'JSON'
-        }
+        },
+        showLoading: false,
+        showError: true,
+        loadingText: '天气数据加载中...'
       });
       if (response.status === '1' && response.lives?.length > 0) {
         const live = response.lives[0];
@@ -55,7 +57,7 @@ const WeatherExample = () => {
       }
     } catch (err) {
       setError(err.message);
-      message.error('天气数据加载失败' + response.message);
+      message.error('天气数据加载失败' + (err.message || ''));
     } finally {
       setLoading(false);
     }
