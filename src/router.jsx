@@ -25,6 +25,7 @@ import LifecycleExample from './components/advanced/Lifecycle';
 import EventHandlingExample from './components/advanced/EventHandling';
 import StateManagementExample from './components/advanced/StateManagement';
 import ImmerExample from './components/advanced/ImmerExample';
+import MobxExample from './components/advanced/MobxExample';
 
 // 导入UI组件示例
 // 展示了常用的Ant Design组件使用方法和自定义UI组件
@@ -113,6 +114,10 @@ const router = createBrowserRouter([
           {
             path: 'immer-example', // Immer示例
             element: <ImmerExample />,
+          },
+          {
+            path: 'mobx-example', // MobX示例
+            element: <MobxExample />,
           },
         ],
       },

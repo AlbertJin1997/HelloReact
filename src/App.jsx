@@ -62,6 +62,7 @@ const menuItems = [
       { key: 'advanced/event-handling', label: '事件处理示例' },
       { key: 'advanced/state-management', label: '状态管理示例' },
       { key: 'advanced/immer-example', label: 'Immer示例' },
+      { key: 'advanced/mobx-example', label: 'MobX示例' },
     ],
   },
   {

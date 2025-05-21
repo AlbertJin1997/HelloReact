@@ -48,6 +48,7 @@ const learningPath = [
       { title: '事件处理示例', path: '/advanced/event-handling', description: '学习React中的事件处理机制' },
       { title: '状态管理示例', path: '/advanced/state-management', description: '掌握复杂应用的状态管理方案' },
       { title: 'Immer示例', path: '/advanced/immer-example', description: '学习使用Immer简化不可变状态更新' },
+      { title: 'MobX示例', path: '/advanced/mobx-example', description: '学习使用MobX进行状态管理' },
     ],
   },
   {
